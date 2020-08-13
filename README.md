@@ -20,6 +20,6 @@ python setup.py install
 ### 3.3D reconstruction with dlib and face3d
 run the code my_project.py with command
 ```python
-python my_project.py [faces_folder_path] [result_folder_path]
+python my_project_demo.py [faces_folder_path] [result_folder_path]
 ```
 It will automatically handle all photos in the [faces_folder_path] and make re-rendered 3d face for every detected faces, then save them in [result_folder_path].
