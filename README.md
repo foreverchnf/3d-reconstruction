@@ -1,4 +1,4 @@
-# 3d-reconstruction
+# 3d-face-reconstruction
 ## Environment：windows 10
 ## python: 3.8.5
 
