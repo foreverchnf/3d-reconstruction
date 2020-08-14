@@ -10,13 +10,13 @@ This 3D reconstruction process is implemented with face3d(github) and dlib-19.20
 #### 1.3 Follow the Readme to install and run some examples
 
 ### 2.Install dilb
-#### 1.1 download the code from http://dlib.net/
-#### 1.2 Use command line in the folder path to install
+#### 2.1 download the code from http://dlib.net/
+#### 2.2 Use command line in the folder path to install
 ```python 
 python setup.py install
 ```
-#### 1.3 To use landmark detection function, we need to download shape_predictor_68_face_landmarks.dat from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
-#### 1.4 Run python_examples 
+#### 2.3 To use landmark detection function, we need to download shape_predictor_68_face_landmarks.dat from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+#### 2.4 Run python_examples 
 
 ### 3.3D reconstruction with dlib and face3d
 run the code my_project.py with command
