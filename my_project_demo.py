@@ -78,10 +78,13 @@ for f in glob.glob(os.path.join(faces_folder_path, "*.jpg")):
         transformed_vertices = bfm.transform(fitted_vertices, fitted_s, fitted_angles, fitted_t)
         image_vertices = mesh.transform.to_image(transformed_vertices, h, w)
 
-        #Invert z axis to make rendering image normal
+        #Invert y and z axis to make rendering image normal
         z = image_vertices[:,2:]
         z = 0 - z
         image_vertices[:,2:] = z
+        y = image_vertices[:,1:2]
+        y = w - y
+        image_vertices[:,1:2] = y
         fitted_image = mesh.render.render_colors(image_vertices, bfm.triangles, colors, h, w)
 
         print('pose, fitted: \n', fitted_s, fitted_angles[0], fitted_angles[1], fitted_angles[2], fitted_t[0], fitted_t[1])
