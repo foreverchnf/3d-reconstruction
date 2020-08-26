@@ -31,4 +31,4 @@ It will automatically handle all photos in the [faces_folder_path] and make re-r
 ```python
 python demo_1.py [faces_folder_path] [result_folder_path] [objFilePath]
 ```
-It will acheive the same function as in ### 3 but also use the deformation model in [objFilePath] to make Caricature photos of the original faces
+It will acheive the same function as in 3 but also use the deformation model in [objFilePath] to make Caricature photos of the original faces
