@@ -26,7 +26,7 @@ python my_project_demo.py [faces_folder_path] [result_folder_path]
 It will automatically handle all photos in the [faces_folder_path] and make re-rendered 3d face for every detected faces, then save them in [result_folder_path].
 
 ### 4.Make Caricature photo
-#### 4.1 Create some deformation face model as in [deformation](https://github.com) folder
+#### 4.1 Create some deformation face model as in [deformation](https://github.com/foreverchnf/3d-reconstruction/tree/master/deformation) folder
 #### 4.2 run the code demo_1.py with command
 ```python
 python demo_1.py [faces_folder_path] [result_folder_path] [objFilePath]
