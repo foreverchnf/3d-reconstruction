@@ -25,6 +25,19 @@ python my_project_demo.py [faces_folder_path] [result_folder_path]
 ```
 It will automatically handle all photos in the [faces_folder_path] and make re-rendered 3d face for every detected faces, then save them in [result_folder_path].
 
+Some **original** and **fitted** photos as follows:
+
+<img src="faces/Bar%20Refaeli%20Looking%20Front%20Face%20Closeup.jpg" width="533" height="300" alt="icon"/></div>
+<img src="new_results/fitted_1_1.jpg" width="300" height="300" alt="icon"/></div>
+
+<img src="faces/face_1.jpg" width="300" height="300" alt="icon"/></div>
+<img src="new_results/fitted_2_1.jpg" width="300" height="300" alt="icon"/></div>
+
+<img src="faces/face_3.png" width="250" height="300" alt="icon"/></div>
+<img src="new_results/fitted_3_1.jpg" width="300" height="300" alt="icon"/></div>
+
+<img src="faces/festivalclaca.cat-girl-face-png-163356.png" width="330" height="300" alt="icon"/></div>
+<img src="new_results/fitted_4_1.jpg" width="300" height="300" alt="icon"/></div>
 ### 4.Make Caricature photo
 #### 4.1 Create some deformation face model as in [deformation](https://github.com/foreverchnf/3d-reconstruction/tree/master/deformation) folder
 #### 4.2 run the code demo_1.py with command
